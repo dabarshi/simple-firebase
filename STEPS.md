@@ -38,3 +38,4 @@
  - export app from firebase.init.js file : export default app
  - Login.jsx: import getAuth from firebase/auth
  - create const auth = getAuth(app)
+ - import googleAuthProvider and create a new provider
