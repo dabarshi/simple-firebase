@@ -33,3 +33,8 @@
  - add config file in your project (do not publish or make firebase config to public by pushing those to github)
  - copy those sdk codes and paste it in firebase.init.js file.
  
+ - ### Firebase Authentication 
+ - visit : Go to Docs > Build > Authentication > Web > Get started
+ - export app from firebase.init.js file : export default app
+ - Login.jsx: import getAuth from firebase/auth
+ - create const auth = getAuth(app)
